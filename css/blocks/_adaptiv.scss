@@ -132,7 +132,7 @@ body {
                                     gap: 12px;
                                 }
                                 & a::after {
-                                    content: url('/img/→arrow.svg');
+                                    content: url('../img/→arrow.svg');
         
                                     background: #33A9FF;
                                     width: 45px;
@@ -362,7 +362,7 @@ body {
                                     gap: 12px;
                                 }
                                 & a::after {
-                                    content: url('/img/→arrow.svg');
+                                    content: url('../img/→arrow.svg');
         
                                     background: #33A9FF;
                                     width: 45px;
@@ -398,7 +398,7 @@ body {
                 z-index: 0;
                 
                 &::after {
-                    content: url(/img/best\ qualitytextBgAdvant.png);
+                    content: url(../img/best\ qualitytextBgAdvant.png);
         
                     position: absolute;
                     top: 373px;
@@ -469,7 +469,7 @@ body {
                                 
                             }
                             & a::after {
-                                content: url('/img/→arrow.svg');
+                                content: url('../img/→arrow.svg');
         
                                 background: #33A9FF;
                                 width: 45px;
@@ -506,7 +506,7 @@ body {
         
                         padding: 15px;
                         & ::after {
-                            content: url('/img/Vector\ 34vectorAdvancItem.svg');
+                            content: url('../img/Vector\ 34vectorAdvancItem.svg');
         
                             display: inline-block;
                             position: absolute;
@@ -593,7 +593,7 @@ body {
                         gap: 15px;
                     }
                     & a::before {
-                        content: url('/img/→arrow.svg');
+                        content: url('../img/→arrow.svg');
         
                         background: #33A9FF;
                         width: 45px;
@@ -671,7 +671,7 @@ body {
                             }
                         }
                         & .footer__new-item {
-                            background: url('/img/Rectangle\ 105footnewsAdapt.png') no-repeat;
+                            background: url('../img/Rectangle\ 105footnewsAdapt.png') no-repeat;
                             width: 325px;
                             position: absolute;
                             top: 50%;

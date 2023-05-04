@@ -295,7 +295,7 @@
     gap: 12px;
   }
   body .info__section .wrapper .slider .slider__item .item-left .about__link a::after {
-    content: url("/img/→arrow.svg");
+    content: url("../img/→arrow.svg");
     background: #33A9FF;
     width: 45px;
     height: 45px;
@@ -491,7 +491,7 @@
     gap: 12px;
   }
   body .catalog__section .catalog__container .container__items .product__item:first-child .iner__item .link-to-allCatalog a::after {
-    content: url("/img/→arrow.svg");
+    content: url("../img/→arrow.svg");
     background: #33A9FF;
     width: 45px;
     height: 45px;
@@ -518,7 +518,7 @@
     z-index: 0;
   }
   body .advantage__block .advantage__container::after {
-    content: url(/img/best\ qualitytextBgAdvant.png);
+    content: url(../img/best\ qualitytextBgAdvant.png);
     position: absolute;
     top: 373px;
     left: 0;
@@ -577,7 +577,7 @@
     cursor: pointer;
   }
   body .advantage__block .advantage__container .advantage__title .right__block .right__link a::after {
-    content: url("/img/→arrow.svg");
+    content: url("../img/→arrow.svg");
     background: #33A9FF;
     width: 45px;
     height: 45px;
@@ -607,7 +607,7 @@
     padding: 15px;
   }
   body .advantage__block .advantage__container .advantage__items .item__container ::after {
-    content: url("/img/Vector 34vectorAdvancItem.svg");
+    content: url("../img/Vector 34vectorAdvancItem.svg");
     display: inline-block;
     position: absolute;
     top: 0;
@@ -677,7 +677,7 @@
     gap: 15px;
   }
   body .lastNews__block .news__header .right__content a::before {
-    content: url("/img/→arrow.svg");
+    content: url("../img/→arrow.svg");
     background: #33A9FF;
     width: 45px;
     height: 45px;
@@ -750,7 +750,7 @@
     font-size: 10px;
   }
   body .lastNews__block .news__container-items .container-iner .item .footer__new-item {
-    background: url("/img/Rectangle 105footnewsAdapt.png") no-repeat;
+    background: url("../img/Rectangle 105footnewsAdapt.png") no-repeat;
     width: 325px;
     position: absolute;
     top: 50%;
@@ -1421,7 +1421,7 @@
   gap: 12px;
 }
 .catalog__section .catalog__container .container__items .product__item:first-child .iner__item .link-to-allCatalog a::after {
-  content: url("/img/→arrow.svg");
+  content: url("../img/→arrow.svg");
   background: #33A9FF;
   width: 55px;
   height: 55px;
@@ -1449,7 +1449,7 @@
   z-index: 0;
 }
 .advantage__block .advantage__container::after {
-  content: url(/img/best\ qualityTextBGAdvan.svg);
+  content: url(../img/best\ qualityTextBGAdvan.svg);
   position: absolute;
   top: 152px;
   left: 0;
@@ -1503,7 +1503,7 @@
   cursor: pointer;
 }
 .advantage__block .advantage__container .advantage__title .right__block .right__link a::after {
-  content: url("/img/→arrow.svg");
+  content: url("../img/→arrow.svg");
   background: #33A9FF;
   width: 55px;
   height: 55px;
@@ -1531,7 +1531,7 @@
   padding: 20px 25px;
 }
 .advantage__block .advantage__container .advantage__items .item__container ::after {
-  content: url("/img/Vector 34vectorAdvancItem.svg");
+  content: url("../img/Vector 34vectorAdvancItem.svg");
   display: inline-block;
   position: absolute;
   top: 0;
@@ -1600,7 +1600,7 @@
   gap: 17px;
 }
 .lastNews__block .news__header .right__content a::before {
-  content: url("/img/→arrow.svg");
+  content: url("../img/→arrow.svg");
   background: #33A9FF;
   width: 55px;
   height: 55px;
@@ -1904,7 +1904,7 @@
   cursor: pointer;
 }
 .contact__block .contact__container .container__inner .right__block .btn .link::after {
-  content: url("/img/→arrow.svg");
+  content: url("../img/→arrow.svg");
   background: #33A9FF;
   width: 55px;
   height: 55px;
