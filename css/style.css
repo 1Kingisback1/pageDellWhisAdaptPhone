@@ -1673,7 +1673,7 @@
   font-size: 12px;
 }
 .lastNews__block .news__container-items .container-iner .item .footer__new-item {
-  background: url("/img/Rectangle 105footer-news.png") no-repeat;
+  background: url("../img/Rectangle 105footer-news.png") no-repeat;
   width: 100%;
   position: absolute;
   top: 60%;
