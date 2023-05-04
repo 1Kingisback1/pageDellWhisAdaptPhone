@@ -1,0 +1,158 @@
+.advantage__block {
+    width: 100%;
+    max-width: 1920px;
+    & .advantage__container {
+        background-color: $backgroundBlock;
+        padding: 86px 260px 45px 260px; 
+        position: relative;
+        z-index: 0;
+        
+        &::after {
+            content: url(/img/best\ qualityTextBGAdvan.svg);
+
+            position: absolute;
+            top: 152px;
+            left: 0;
+            z-index: -1;
+            width: 897px;
+            height: 346px;
+            display: inline-block;
+        }
+
+        & .advantage__title {
+            display: flex;
+
+            & .left__block {
+                position: relative;
+                z-index: 1;
+                left: -70px;
+
+                width: 52%;
+            }
+
+            & .right__block {
+                padding-top: calc(183px - 86px);
+                display: flex;
+                flex-direction: column;
+                gap: 37px;
+
+                width: 495px;
+
+                & .right__title {
+                    font-weight: 400;
+                    font-size: 50px;
+                    line-height: 50px;
+                    color: #292D32;
+                }
+
+                & .right__content {
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 150%;
+                    color: #838383;
+
+                    text-align: justify;
+                }
+
+                & .right__link {
+                    margin-top: 5px;
+                    
+                    
+                    & a {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 30px;
+                        
+
+                        display: flex;
+                        flex-direction: row-reverse;
+                        align-items: center;
+                        justify-content: flex-end;
+                        gap: 12px;
+                        color: #292D32;
+                        cursor: pointer;
+                        
+                    }
+                    & a::after {
+                        content: url('/img/→arrow.svg');
+
+                        background: #33A9FF;
+                        width: 55px;
+                        height: 55px;
+                        border-radius: 50%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+
+                        font-weight: 700;
+                        font-size: 18.7429px;
+                        line-height: 35px;
+                        text-align: center;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        & .advantage__items {
+            display: flex;
+            gap: 13px;
+            
+            & .item__container {
+                width: calc(365px - 50px);
+                height: calc(279px - 40px);
+                background-color: #292D32;
+                border-radius: 10px;
+
+                position: relative;
+                z-index: 1;
+
+                padding: 20px 25px;
+                & ::after {
+                    content: url('/img/Vector\ 34vectorAdvancItem.svg');
+
+                    display: inline-block;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    z-index: 1;
+
+                    width: 139.5px;
+                    height: 90px;
+                }
+
+                & .item__icon {
+                    width: 70px;
+                    height: 70px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    background-color: #343A41;
+                    border-radius: 10px;    
+
+                }
+                & .item__title {
+
+                    margin-top: 25px;
+                    margin-bottom: 15px;
+                    font-family: $font-advantBlock;
+                    font-weight: 700;
+                    font-size: 22px;
+                    line-height: 28px;
+
+                    color: #FFFFFF;
+                }
+                & .item__content {
+                    font-family: $font-advantBlock;
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 20px;
+
+                    color: #B7B7B7;
+                }
+            }
+        }
+
+    }
+}

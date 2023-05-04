@@ -1,0 +1,59 @@
+@import './vars';
+@import './mixins';
+@import './blocks/nav';
+@import './blocks/adaptiv';
+@import './blocks/newsBlock';
+@import './blocks/catalogBlock';
+@import './blocks/advantageBlock';
+@import './blocks/lastNewsBlock';
+@import './blocks/contactBlock';
+@import './blocks/footer';
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+* a {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    width: 1920px;
+    display: inline-block;
+    font-family: $font-text;
+}
+
+.night::after {
+    content: "";
+    position: absolute;
+    top: 92px;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.7;
+    
+}
+
+@media (max-width: 380px) {
+    *,
+    *::after,
+    *::before {
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        display: block;
+        width: 375px;
+        &.lock {
+            height: 100vh;
+            overflow: hidden;
+        }
+    }
+}

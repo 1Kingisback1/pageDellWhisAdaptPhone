@@ -1,0 +1,178 @@
+
+.header {
+    display: block;
+    padding: 27px 260px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 4;
+    background-color: white;
+
+    & .navbar {
+        display: flex;
+        gap: 60px;
+        line-height: 17px;
+
+        & .nav__items {
+            
+            @include flex-center;
+            & .nav__link {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                
+                gap: 45px;
+                text-transform: uppercase;
+            }
+            & .search__btn {
+                width: 49px;
+                height: 49px;
+                border-radius: 50%;
+                border: none;
+                background-color: inherit;
+                margin-left: 45px;
+            }
+        }
+    }
+    & .right__content {
+        position: relative;
+        & .link__setingProfil {
+            @include flex-center;
+            gap: 30px;
+
+            & .link__btn {
+                width: 49px;
+                height: 49px;
+                background: #F9F9F9;
+                border-radius: 50%;
+                border: none;
+                cursor: pointer;
+                
+            }
+            & .shop-indicat {
+                position: relative;
+                & span {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    z-index: 2;
+                    width: 16px;
+                    height: 16px;
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 14px;
+                    color: white;
+                    background-color: #3086C8;
+                    border-radius: 50%;
+                    @include flex-center;
+                }
+            }
+            & .nav__icon {
+                width: 46px;
+                height: 46px;
+                border-radius: 50%;
+                margin-right: 15px;
+                background-color: #F9F9F9;
+                display: none;
+                position: relative;
+                z-index: 5;
+                cursor: pointer;
+                
+                & span {
+                    width: 60%;
+                    height: 0px;
+                    border: 0.75px solid #292D32;
+                    border-radius: 10px;
+                    position: absolute;
+                    top: calc(50% - 0.75px);
+                    left: 20%;
+                    transition: transform .2s linear;
+
+                    &:first-child {
+                        top: 31%;
+                    }
+                    &:last-child {
+                        top: auto;
+                        bottom: 31%;
+                    }
+                }
+                &.active {
+                    span {
+                        transform: scale(0);
+                        &:first-child {
+                            transform: rotate(-45deg);
+                            top: calc(50% - 0.75px);
+                        }
+                        &:last-child {
+                            transform: rotate(45deg);
+                            bottom: calc(50% - 0.75px);
+                        }
+                    }
+                }
+            }
+        }
+        & .profile-menu {
+            position: absolute;
+            top: 87px;
+            right: 23%;
+            z-index: 4;
+            filter: drop-shadow(0px 14px 75px rgba(0, 0, 0, 0.13)) drop-shadow(0px 1.75302px 9.39116px rgba(0, 0, 0, 0.065));
+            opacity: 0;
+            & .container {
+                width: 405px;
+                height: 389px;
+                border-radius: 20px;
+                background-color: white;
+
+                position: relative;               
+
+                & span {
+                    position: absolute;
+                    top: -9px;
+                    left: 50%;
+                    background-color: white;
+                    width: 18px;
+                    height: 18px;
+                    border-radius: 2px;
+                    transform: matrix(0.73, 0.68, -0.73, 0.68, 0, 0);
+                }
+                & .profile__title-name {
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    padding: 30px;
+                    & .photoProfile {
+                        width: 49px;
+                        height: 49px;
+                        background-color:#F9F9F9;
+                        border-radius: 50%;
+                        @include flex-center;
+                        cursor: pointer;
+                        &>img {
+                            width: 40%;
+                            height: 40%;
+                        }
+                    }
+                    &>p {
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 150%;
+                    }
+                }
+                & .profile__items-link {
+                    & .item {
+                        padding: 20px 30px;
+                        border-top: 1px solid #F2F2F2;
+                        &>a {
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 150%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

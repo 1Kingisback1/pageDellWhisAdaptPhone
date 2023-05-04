@@ -1,0 +1,75 @@
+.footer {
+    & .conteiner__footer {
+        padding: 60px 260px 40px 260px;
+        position: relative;
+        z-index: 1;
+        &>img {
+            position: absolute;
+            top: 133px;
+            right: 0;
+            z-index: -1;
+        }
+        & .nav__link-box {
+            display: flex;
+            gap: 190px;
+            padding-bottom: 60px;
+            & .menu__link-items {
+                display: flex;
+                gap: 180px;
+                & .item {
+                    & ul {
+                        & li {
+                            font-weight: 300;
+                            font-size: 16px;
+                            line-height: 19px;
+                            color: #292D32;
+                            margin-bottom: 10px;
+
+                            &:last-child {
+                                margin-bottom: 0;
+                            }
+
+                            &:first-child {
+                                font-weight: 400;
+                                font-size: 25px;
+                                line-height: 29px;
+                                color: #292D32;
+                                margin-bottom: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        & .contact-box {
+            border-top: 1px solid #E5E5E5;
+            padding-top: 40px;
+            & .contact-items {
+                display: flex;
+                justify-content: space-between;
+                gap: 153px;
+
+                & .item {
+                    & .title-item {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 133.69%;
+                        color: #838383;
+                        margin-bottom: 11px;
+                    }
+                    & a {
+                        font-weight: 400;
+                        font-size: 17px;
+                        line-height: 150%;
+                        color: #292D32;
+                    }
+                }
+                & .social {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 18px;
+                }
+            }
+        }
+    }
+}
